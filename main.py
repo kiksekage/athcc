@@ -54,7 +54,7 @@ if __name__ == "__main__":
     model = VelocityNN(hidden_size, dimensions, len(label2class), pad_length, layers)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.SGD(model.parameters(), lr=0.01)
-    save_file = model_path / "model2"
+    save_file = model_path / "ref_model"
 
     train(
         n_epochs,
