@@ -1,3 +1,6 @@
 .venv/
 .vscode/
 pointing-data-ATHCC/
+__pycache__/
+report/
+speeds/
